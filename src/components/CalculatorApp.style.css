@@ -1,0 +1,32 @@
+.input-container input {
+    width: 100%;
+    border: 1px solid #e04d01;
+    background-color: #251d3a;
+    padding: 2rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: right;
+    letter-spacing: 0.5rem;
+  }
+  
+  .input-container input:focus {
+    outline: none;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .button {
+    border: 1px solid #e04d01;
+    background-color: #ffffff;
+    padding: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .operator {
+    background-color: #ff7700;
+    color: #ffffff;
+  }
